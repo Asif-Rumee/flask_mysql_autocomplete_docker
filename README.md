@@ -1,6 +1,5 @@
 # flask_mysql_autocomplete_docker
-
-This project is a simple web app that automatically suggests search locations from approximately 15,5000 prepopulated records in the DB. It is made with Python Flask as the back-end framework, jQuery as the front-end JS library and MySQL as the database and SqlALCHEMY as ORM. 
+This project is a simple web app that automatically suggests search locations from approximately 15,5000 prepopulated records in the database.
 
 ## Getting Started
 
@@ -21,20 +20,26 @@ https://docs.docker.com/docker-for-windows/install/
 
 ### Installing
 
-***Step 1:*** Change to the directory where the project was cloned in previous step.
+***Step 1:*** Change to the directory where the project was cloned in previous step. 
 
-cd Docker-Flask-MySQL
-***Step 2:*** Make sure Docker is up and running. You can start the docker engine from desktop icon on Mac.
+**cd flask_mysql_autocomplete_docker**
+
+***Step 2:*** Make sure Docker is up and running. You can start the docker engine from start menu on windows.
 
 ***Step 3:*** Run
 
-docker-compose up --build
-***Step 4:*** Open up the browser and paste the below url
+**docker-compose up**
 
-http://localhost:5000/
-The browser should display Hello World ! I am back with db running .! message. The app is up and running inside a docker container using docker-compose.
+***Step 4:*** Change directory to app/ **cd flask_mysql_docker/app**
 
-***Step 5:*** Verify DB is up and running and tables are created
+run python script **cmd python application.py** 
+
+***Step 5:*** Open up the browser and paste the below url
+**http://localhost:5000/**
+
+
+
+***Step 6:*** Verify DB is up and running and tables are created
 
 Use any of the database clients like MySQL workbench or SQLDeveloper. In my case, I am using the MySQL workbench.
 
@@ -55,3 +60,5 @@ The port to be used is 5000 which is the port on which app will be running on lo
 * [Python](https://www.python.org/) - programming language
 * [pip](https://pip.pypa.io/en/stable/) - Package and dependency manager
 * [MySQL](https://www.mysql.com/) - Database
+* [SQLAlchemy](https://www.sqlalchemy.org/) - Python sql toolkit and ORM
+* [jQuery](https://jquery.com/) - JavaScript library to manipulate html  
