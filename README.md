@@ -22,17 +22,19 @@ https://docs.docker.com/docker-for-windows/install/
 
 ***Step 1:*** Change to the directory where the project was cloned in previous step. 
 
-**cd flask_mysql_autocomplete_docker**
+***cd flask_mysql_autocomplete_docker***
 
 ***Step 2:*** Make sure Docker is up and running. You can start the docker engine from start menu on windows.
 
 ***Step 3:*** Run
 
-**docker-compose up**
+***docker-compose up***
 
-***Step 4:*** Change directory to app/ **cd flask_mysql_docker/app**
+***Step 4:*** Change directory to app/ 
+***cd flask_mysql_docker/app***
 
-run python script **cmd python application.py** 
+run python script 
+***cmd python application.py***
 
 ***Step 5:*** Open up the browser and paste the below url
 **http://localhost:5000/**
