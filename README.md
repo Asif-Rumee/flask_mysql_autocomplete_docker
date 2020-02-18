@@ -36,7 +36,7 @@ https://docs.docker.com/docker-for-windows/install/
 
 run python script 
 
-***cmd python application.py***
+***python application.py***
 
 ***Step 5:*** Open up the browser and paste the below url
 **http://localhost:5000/**
