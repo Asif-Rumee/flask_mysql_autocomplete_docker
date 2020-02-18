@@ -31,13 +31,17 @@ https://docs.docker.com/docker-for-windows/install/
 ***docker-compose up***
 
 ***Step 4:*** Change directory to app/ 
+
 ***cd flask_mysql_docker/app***
 
 run python script 
+
 ***cmd python application.py***
 
 ***Step 5:*** Open up the browser and paste the below url
 **http://localhost:5000/**
+
+Now you should see the wep app running.
 
 
 
