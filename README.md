@@ -1,5 +1,5 @@
 # flask_mysql_autocomplete_docker
-This project is a simple web app that automatically suggests search locations from approximately 15,5000 prepopulated records in the database.
+This project is a simple web app that automatically suggests search locations from approximately 15,500 prepopulated records in the database.
 
 ## Getting Started
 
